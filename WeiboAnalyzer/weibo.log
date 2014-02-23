@@ -1,0 +1,68 @@
+1001197 DEBUG [2013-05-23 20:35:51]  Request:
+1001197 DEBUG [2013-05-23 20:35:51]  GET:https://api.weibo.com/2/statuses/user_timeline.json
+1001197 DEBUG [2013-05-23 20:35:51]  Authorization: OAuth2 2.00GLy1AC3ojl7E9d85327844CQtJFB
+1001197 DEBUG [2013-05-23 20:35:51]  API-RemoteIP: 192.168.1.104
+0    DEBUG [2014-02-23 16:02:22]  Request:
+2    DEBUG [2014-02-23 16:02:22]  GET:https://api.weibo.com/2/friendships/friends.json
+183  DEBUG [2014-02-23 16:02:22]  Authorization: OAuth2 2.00GLy1AC3ojl7E9d85327844CQtJFB
+184  DEBUG [2014-02-23 16:02:22]  API-RemoteIP: 192.168.1.107
+2723 DEBUG [2014-02-23 16:02:24]  Response:
+2724 DEBUG [2014-02-23 16:02:24]  https StatusCode:200
+2724 DEBUG [2014-02-23 16:02:24]  Server:nginx/1.2.0
+2725 DEBUG [2014-02-23 16:02:24]  Date:Sun, 23 Feb 2014 08:02:24 GMT
+2725 DEBUG [2014-02-23 16:02:24]  Content-Type:application/json;charset=UTF-8
+2725 DEBUG [2014-02-23 16:02:24]  Transfer-Encoding:chunked
+2725 DEBUG [2014-02-23 16:02:24]  Connection:keep-alive
+2726 DEBUG [2014-02-23 16:02:24]  Api-Server-IP:10.75.5.59
+2726 DEBUG [2014-02-23 16:02:24]  Vary:Accept-Encoding
+2731 WARN  [2014-02-23 16:02:24]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2732 DEBUG [2014-02-23 16:02:24]  {"error":"request uid's value must be the current user","error_code":21335,"request":"/2/friendships/friends.json"}
+
+0    DEBUG [2014-02-23 16:12:10]  Request:
+2    DEBUG [2014-02-23 16:12:10]  GET:https://api.weibo.com/2/friendships/friends.json
+156  DEBUG [2014-02-23 16:12:10]  Authorization: OAuth2 2.00GLy1AC3ojl7E9d85327844CQtJFB
+157  DEBUG [2014-02-23 16:12:10]  API-RemoteIP: 192.168.1.107
+10316 DEBUG [2014-02-23 16:12:20]  Response:
+10318 DEBUG [2014-02-23 16:12:20]  https StatusCode:200
+10319 DEBUG [2014-02-23 16:12:20]  Server:nginx/1.2.0
+10320 DEBUG [2014-02-23 16:12:20]  Date:Sun, 23 Feb 2014 08:12:19 GMT
+10321 DEBUG [2014-02-23 16:12:20]  Content-Type:application/json;charset=UTF-8
+10322 DEBUG [2014-02-23 16:12:20]  Transfer-Encoding:chunked
+10323 DEBUG [2014-02-23 16:12:20]  Connection:keep-alive
+10324 DEBUG [2014-02-23 16:12:20]  Api-Server-IP:10.75.24.204
+10325 DEBUG [2014-02-23 16:12:20]  Vary:Accept-Encoding
+10336 WARN  [2014-02-23 16:12:20]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+10339 DEBUG [2014-02-23 16:12:20]  {"error":"request uid's value must be the current user","error_code":21335,"request":"/2/friendships/friends.json"}
+
+0    DEBUG [2014-02-23 16:14:24]  Request:
+2    DEBUG [2014-02-23 16:14:24]  GET:https://api.weibo.com/2/friendships/friends.json
+71   DEBUG [2014-02-23 16:14:24]  Authorization: OAuth2 2.00GLy1AC3ojl7E9d85327844CQtJFB
+72   DEBUG [2014-02-23 16:14:24]  API-RemoteIP: 192.168.1.107
+3057 DEBUG [2014-02-23 16:14:27]  Response:
+3058 DEBUG [2014-02-23 16:14:27]  https StatusCode:200
+3058 DEBUG [2014-02-23 16:14:27]  Server:nginx/1.2.0
+3058 DEBUG [2014-02-23 16:14:27]  Date:Sun, 23 Feb 2014 08:14:26 GMT
+3059 DEBUG [2014-02-23 16:14:27]  Content-Type:application/json;charset=UTF-8
+3059 DEBUG [2014-02-23 16:14:27]  Transfer-Encoding:chunked
+3059 DEBUG [2014-02-23 16:14:27]  Connection:keep-alive
+3059 DEBUG [2014-02-23 16:14:27]  Api-Server-IP:10.75.5.67
+3060 DEBUG [2014-02-23 16:14:27]  Vary:Accept-Encoding
+3064 WARN  [2014-02-23 16:14:27]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+3066 DEBUG [2014-02-23 16:14:27]  {"error":"request uid's value must be the current user","error_code":21335,"request":"/2/friendships/friends.json"}
+
+0    DEBUG [2014-02-23 16:15:04]  Request:
+3    DEBUG [2014-02-23 16:15:04]  GET:https://api.weibo.com/2/friendships/friends.json
+156  DEBUG [2014-02-23 16:15:04]  Authorization: OAuth2 2.00GLy1AC3ojl7E9d85327844CQtJFB
+157  DEBUG [2014-02-23 16:15:04]  API-RemoteIP: 192.168.1.107
+7573 DEBUG [2014-02-23 16:15:11]  Response:
+7574 DEBUG [2014-02-23 16:15:11]  https StatusCode:200
+7575 DEBUG [2014-02-23 16:15:11]  Server:nginx/1.2.0
+7576 DEBUG [2014-02-23 16:15:11]  Date:Sun, 23 Feb 2014 08:15:10 GMT
+7578 DEBUG [2014-02-23 16:15:11]  Content-Type:application/json;charset=UTF-8
+7579 DEBUG [2014-02-23 16:15:11]  Transfer-Encoding:chunked
+7580 DEBUG [2014-02-23 16:15:11]  Connection:keep-alive
+7581 DEBUG [2014-02-23 16:15:11]  Api-Server-IP:10.75.5.64
+7582 DEBUG [2014-02-23 16:15:11]  Vary:Accept-Encoding
+7592 WARN  [2014-02-23 16:15:11]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+7596 DEBUG [2014-02-23 16:15:11]  {"error":"request uid's value must be the current user","error_code":21335,"request":"/2/friendships/friends.json"}
+
